@@ -1,5 +1,5 @@
 def players_by_country_and_position(squads_list):
-    player_dict = players_by_positions(squads_list)
+    player_dict = players_by_position(squads_list)
     country_dict = {}
     for position, player in player_dict.items():
         for profiles in player:
