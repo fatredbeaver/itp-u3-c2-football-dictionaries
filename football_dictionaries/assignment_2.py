@@ -1,4 +1,4 @@
-def players_by_positions(squads_list):
+def players_by_position(squads_list):
     player_dict = players_as_dictionaries(squads_list)
     position_dict = {}
     for player in player_dict:
